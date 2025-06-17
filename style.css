@@ -12,7 +12,7 @@
             color: rgb(16, 187, 222);
             padding: 20px 0;
             text-align: center;
-           background-image: url(../image/1.png);
+           background-image: url(./image/1.png);
            background-position: bottom;
            background-size: cover;
            background-repeat: no-repeat;
@@ -91,7 +91,7 @@
 /* 内容区：单独设置背景图 */
 .content {
   /* 背景图路径 */
-  background-image: url(../image/3.jpg);
+  background-image: url(./image/3.jpg);
   /* 不重复 */
   background-repeat: no-repeat; 
   /* 覆盖内容区（按需调整：cover/contain） */
@@ -104,7 +104,7 @@
 
 .hero {
       background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
-      background-image: url(../image/20.jpg);
+      background-image: url(./image/20.jpg);
       /* 不重复 */
      background-repeat: no-repeat; 
      /* 覆盖内容区 */
@@ -289,7 +289,7 @@
     /* 页脚 */
     footer {
       background-color: #2c3e50;
-      background-image: url(../image/20.jpg);
+      background-image: url(./image/20.jpg);
       background-repeat: no-repeat; 
      /* 覆盖内容区 */
       background-size: cover; 
@@ -331,7 +331,7 @@
     max-width: 800px;
     margin: 30px auto 0 auto;
     padding: 0 20px;
-    background-image: url(../image/3.jpg);
+    background-image: url(./image/3.jpg);
 }
 
 .page-title {
@@ -635,7 +635,7 @@
 
 .cont {
   /* 背景图路径 */
-  background-image: url(../image/3.jpg);
+  background-image: url(./image/3.jpg);
   /* 不重复 */
   background-repeat: no-repeat; 
   /* 覆盖内容区（按需调整：cover/contain） */
@@ -685,7 +685,7 @@
   padding: 25px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  background-image: url(../image/9.jpg);
+  background-image: url(./image/9.jpg);
   background-repeat: no-repeat; 
   /* 覆盖内容区（按需调整：cover/contain） */
   background-size: cover; 
