@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>刘霁千的个人网站</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 页眉区域 -->
+    <header>
+        <div class="header-title">欢迎来到刘霁千的个人网站！</div>
+    </header>
+    
+    <!-- 导航区域 -->
+    <!-- 导航区域代码不变，仍为横向列表结构 -->
+    <nav>
+    <div class="nav-container">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="resume.html" class="nav-link">个人简历</a></li>
+            <li class="nav-item"><a href="travel.html" class="nav-link">旅游经历</a></li>
+            <li class="nav-item"><a href="hobbies.html" class="nav-link">兴趣爱好</a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link">首页</a></li>
+        </ul>
+    </div>
+    </nav>
+<div class="content">
+    <!-- 英雄区域 -->
+  <div class="hero">
+    <div class="container">
+      <h1>你好，我是刘霁千</h1>
+      <p>这里是我的个人网站，分享我的经历、兴趣爱好，很高兴你能来访问！</p>
+    </div>
+  </div>
+
+  <!-- 核心内容卡片 -->
+  <div class="container">
+    <div class="content-cards">
+      <div class="card">
+        <h3>个人简历</h3>
+        <p>查看我的职业经历、教育背景和专业技能，了解我的成长轨迹和能力专长。</p>
+        <a href="resume.html">查看详情</a>
+      </div>
+      
+      <div class="card">
+        <h3>旅游经历</h3>
+        <p>记录我在世界各地的旅行故事和风景，每一次出行都是对世界的重新认识。</p>
+        <a href="travel.html">查看详情</a>
+      </div>
+      
+      <div class="card">
+        <h3>兴趣爱好</h3>
+        <p>分享我的业余生活和兴趣爱好，从摄影、阅读到户外运动，总有你感兴趣的内容。</p>
+        <a href="hobbies.html">查看详情</a>
+      </div>
+    </div>
+
+    <!-- 技能与成就表格 -->
+    <div class="skills-section">
+      <h2 class="section-title">我的技能与成就</h2>
+      <table>
+        <tr>
+          <th>技能/领域</th>
+          <th>掌握程度</th>
+          <th>主要成就</th>
+        </tr>
+        <tr>
+          <td>Web开发</td>
+          <td>一般精通HTML/CSS/JavaScript</td>
+          <td>无法独立完成3个个人网站项目</td>
+        </tr>
+        <tr>
+          <td>旅行</td>
+          <td>覆盖中国的2/17</td>
+          <td>无脑跟朋友攻略出游</td>
+        </tr>
+        <tr>
+          <td>打游戏</td>
+          <td>最高段位全服21666名</td>
+          <td>实力坑人，没坑算我输</td>
+        </tr>
+        <tr>
+          <td>外语能力</td>
+          <td>无法熟练运用</td>
+          <td>无法与外国人流利交流，六级可能要挂</td>
+        </tr>
+      </table>
+    </div>
+    <!-- 联系表单区域 -->
+    <div class="contact-section">
+      <h2 class="section-title">与我联系</h2>
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="name">姓名</label>
+          <input type="text" id="name" name="name" placeholder="请输入你的姓名" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="email">邮箱</label>
+          <input type="email" id="email" name="email" placeholder="请输入你的邮箱" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="subject">主题</label>
+          <input type="text" id="subject" name="subject" placeholder="留言主题">
+        </div>
+        
+        <div class="form-group">
+          <label for="message">留言内容</label>
+          <textarea id="message" name="message" placeholder="请输入你想对我说的话..." required></textarea>
+        </div>
+        
+        <button type="submit">提交留言</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- 页脚 -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <a href="#" class="social-link">微信</a>
+        <a href="#" class="social-link">微博</a>
+        <a href="#" class="social-link">GitHub</a>
+        <a href="#" class="social-link">LinkedIn</a>
+      </div>
+      <div class="copyright">
+        &copy; 2025刘霁千个人网站 | 所有内容仅供展示
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // 简单的表单提交提示
+    const form = document.querySelector('form');
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('感谢你的留言，我会尽快回复你！');
+      this.reset();
+    });
+    
+    // 导航栏滚动效果
+    window.addEventListener('scroll', function() {
+      const nav = document.querySelector('nav');
+      if (window.scrollY > 50) {
+        nav.style.padding = '10px 0';
+        nav.style.boxShadow = '0 4px 15px rgba(0,0,0,0.1)';
+      } else {
+        nav.style.padding = '15px 0';
+        nav.style.boxShadow = '0 2px 10px rgba(0,0,0,0.1)';
+      }
+    });
+  </script>
+</div>
+    
+    <!-- 其他内容区域可在此继续添加 -->
+</body>
+</html>
+
